@@ -24,38 +24,35 @@ This project uses **Modern Portfolio Theory (MPT)** to construct, analyze, and o
 
 ---
 
-📉 Sample Output
-Efficient Frontier with Sharpe Heatmap
+---
 
-Capital Market Line
+## 📉 Sample Output
 
-Rebalanced vs. Buy-and-Hold portfolio growth
+📈 **Efficient Frontier with Sharpe Heatmap**  
+📉 **Capital Market Line**  
+🔁 **Rebalanced vs. Buy-and-Hold portfolio growth**  
+⚠️ **VaR and CVaR visualizations**  
+📊 **Benchmark comparison with S&P 500 (SPY)**
 
-VaR and CVaR visualizations
+---
 
-Benchmark comparison with SPY
+## 📌 Notes
 
-📌 Notes
-Make sure you're connected to the internet when running the notebook (for data fetching).
+- Make sure you're connected to the internet when running the notebook (for data fetching).
+- The notebook assumes equity tickers from Yahoo Finance (like AAPL, MSFT, etc.).
+- Returns are log-transformed for compounding accuracy.
 
-The notebook assumes equity tickers from Yahoo Finance (like AAPL, MSFT, etc.).
+---
 
-Returns are log-transformed for compounding accuracy.
+## 📚 References
 
-📚 References
-Modern Portfolio Theory - Investopedia
+- [Modern Portfolio Theory – Investopedia](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)  
+- [Sharpe Ratio – CFA Institute](https://www.cfainstitute.org/en/research/foundation/2010/the-sharpe-ratio)  
+- [Ledoit-Wolf Shrinkage – scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.LedoitWolf.html)
 
-Sharpe Ratio - CFA Institute
+---
 
-Ledoit-Wolf Shrinkage
+## 🧠 Author
 
-🧠 Author
-Shilajit Mukherjee
-Data Science | Finance Enthusiast | Student at IITM 
-
-## 🧪 Requirements
-
-Install the required Python libraries:
-
-```bash
-pip install -r requirements.txt
+**Shilajit Mukherjee**  
+_Data Science | Finance Enthusiast | Student at IITM_
