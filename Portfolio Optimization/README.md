@@ -59,8 +59,8 @@ pip install streamlit numpy pandas yfinance matplotlib scipy
 ---
 
 ## ⚠️ Disclaimer 
--This app is for educational and demonstration purposes only.
--Past performance is not indicative of future results.
--No financial advice is being given.
+- This app is for educational and demonstration purposes only.
+- Past performance is not indicative of future results.
+- No financial advice is being given.
 
 ---
