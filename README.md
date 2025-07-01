@@ -24,6 +24,35 @@ This project uses **Modern Portfolio Theory (MPT)** to construct, analyze, and o
 
 ---
 
+📉 Sample Output
+Efficient Frontier with Sharpe Heatmap
+
+Capital Market Line
+
+Rebalanced vs. Buy-and-Hold portfolio growth
+
+VaR and CVaR visualizations
+
+Benchmark comparison with SPY
+
+📌 Notes
+Make sure you're connected to the internet when running the notebook (for data fetching).
+
+The notebook assumes equity tickers from Yahoo Finance (like AAPL, MSFT, etc.).
+
+Returns are log-transformed for compounding accuracy.
+
+📚 References
+Modern Portfolio Theory - Investopedia
+
+Sharpe Ratio - CFA Institute
+
+Ledoit-Wolf Shrinkage
+
+🧠 Author
+Shilajit Mukherjee
+Data Science | Finance Enthusiast | Student at IITM 
+
 ## 🧪 Requirements
 
 Install the required Python libraries:
